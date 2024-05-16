@@ -1,0 +1,8 @@
+/home/apmnair18/Documents/Codes/Geant4_Trials/build/CMakeFiles/simulation.dir
+/home/apmnair18/Documents/Codes/Geant4_Trials/build/CMakeFiles/GEANT4.dir
+/home/apmnair18/Documents/Codes/Geant4_Trials/build/CMakeFiles/edit_cache.dir
+/home/apmnair18/Documents/Codes/Geant4_Trials/build/CMakeFiles/rebuild_cache.dir
+/home/apmnair18/Documents/Codes/Geant4_Trials/build/CMakeFiles/list_install_components.dir
+/home/apmnair18/Documents/Codes/Geant4_Trials/build/CMakeFiles/install.dir
+/home/apmnair18/Documents/Codes/Geant4_Trials/build/CMakeFiles/install/local.dir
+/home/apmnair18/Documents/Codes/Geant4_Trials/build/CMakeFiles/install/strip.dir
