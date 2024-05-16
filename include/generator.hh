@@ -6,6 +6,7 @@
 #include "G4Event.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4ParticleTable.hh"
+#include "Randomize.hh"
 
 class PrimaryGenerator:public G4VUserPrimaryGeneratorAction{
     public:

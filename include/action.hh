@@ -8,6 +8,7 @@
 #include "G4UserSteppingAction.hh"
 #include "G4UserTrackingAction.hh"
 #include "generator.hh"
+#include "run.hh"
 
 
 class ActionInitialization : public G4VUserActionInitialization{
