@@ -26,8 +26,8 @@ int main(int argc,char** argv)
   auto* runManager = G4RunManagerFactory::CreateRunManager(G4RunManagerType::Default);
 
 
-  // runManager->SetUserInitialization(new detectorconstruction());
-  // runManager->SetUserInitialization(new physicslist());
+  runManager->SetUserInitialization(new DetectorConstruction());
+  runManager->SetUserInitialization(new PhysicsList());
   // runManager->SetUserInitialization(new actioninitialization());
 
   G4VisManager* visManager = new G4VisExecutive;
