@@ -1,4 +1,5 @@
 #include "G4RunManagerFactory.hh"
+#include "G4RunManager.hh"
 #include "G4SteppingVerbose.hh"
 #include "G4UImanager.hh"
 #include "G4VisExecutive.hh"
@@ -22,13 +23,11 @@ int main(int argc,char** argv)
   G4int precision = 4;
   G4SteppingVerbose::UseBestUnit(precision);
 
-
-  auto* runManager = G4RunManagerFactory::CreateRunManager(G4RunManagerType::Default);
-
+  G4RunManager* runManager = new G4RunManager;
 
   runManager->SetUserInitialization(new DetectorConstruction());
   runManager->SetUserInitialization(new PhysicsList());
-  // runManager->SetUserInitialization(new actioninitialization());
+  runManager->SetUserInitialization(new ActionInitialization());
 
   G4VisManager* visManager = new G4VisExecutive;
   visManager->Initialize();
