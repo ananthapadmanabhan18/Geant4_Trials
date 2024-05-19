@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16...3.28)
-project(GEANT4)
+project(GEANT4 CXX)
 
 
 option(WITH_GEANT4_UIVIS "Build example with Geant4 UI and Vis drivers" ON)
