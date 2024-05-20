@@ -1,4 +1,6 @@
 #include "generator.hh"
+#define M_PI 3.14159265358979323846
+
 
 PrimaryGenerator::PrimaryGenerator(){
     fParticleGun = new G4ParticleGun(1);
