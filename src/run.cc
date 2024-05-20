@@ -9,6 +9,10 @@ RunAction::RunAction(){
     man->CreateNtupleDColumn("Z");
     man->FinishNtuple(0);
 
+    man->CreateNtuple("Scoring", "Scoring");
+    man->CreateNtupleDColumn("fEdep");
+    man->FinishNtuple(1);
+
 }
 RunAction::~RunAction(){}
 

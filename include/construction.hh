@@ -22,8 +22,12 @@ class DetectorConstruction : public G4VUserDetectorConstruction{
 
         virtual G4VPhysicalVolume* Construct(); 
 
-    private:
+        G4LogicalVolume* GetScoringVolume() const{
+            return fScoringVolume;
+        }
 
+    private:
+        G4LogicalVolume* fScoringVolume;
         virtual void ConstructSDandField();
         G4LogicalVolume* logicTarget;
         G4double photonEnergy[2] = {2.034*eV, 4.136*eV};    

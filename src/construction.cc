@@ -46,7 +46,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct(){
     new G4PVPlacement(0, G4ThreeVector(0,0,5*m), logicTarget, "pTarget", logicWorld, false, 0, checkOverlaps);
 
 
-
+    fScoringVolume = logicTarget;
 
 
     return physWorld;
